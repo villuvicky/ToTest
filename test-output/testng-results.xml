@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-25T21:53:36 IST" name="Suite" finished-at="2021-08-25T21:54:07 IST" duration-ms="30682">
+    <groups>
+      <group name="Opportunity">
+        <method signature="AssessmentPOM.test(java.lang.String,java.lang.String)[pri:0, instance:testCases.AssessmentPOM@543295b0]" name="test" class="testCases.AssessmentPOM"/>
+      </group> <!-- Opportunity -->
+    </groups>
+    <test started-at="2021-08-25T21:53:36 IST" name="Test" finished-at="2021-08-25T21:54:07 IST" duration-ms="30682">
+      <class name="testCases.AssessmentPOM">
+        <test-method is-config="true" signature="setSheetName()[pri:0, instance:testCases.AssessmentPOM@543295b0]" started-at="2021-08-25T21:53:36 IST" name="setSheetName" finished-at="2021-08-25T21:53:36 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSheetName -->
+        <test-method is-config="true" signature="openBrowserAndLogin()[pri:0, instance:testCases.AssessmentPOM@543295b0]" started-at="2021-08-25T21:53:37 IST" name="openBrowserAndLogin" finished-at="2021-08-25T21:53:54 IST" duration-ms="16822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndLogin -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:testCases.AssessmentPOM@543295b0]" started-at="2021-08-25T21:53:54 IST" name="test" data-provider="fecthData" finished-at="2021-08-25T21:54:00 IST" duration-ms="6335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Call/Email/Meeting]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev r]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AssessmentPOM@543295b0]" started-at="2021-08-25T21:54:00 IST" name="tearDown" finished-at="2021-08-25T21:54:07 IST" duration-ms="6675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AssessmentPOM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
